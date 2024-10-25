@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="annivesary.css" />
+    <title>Pink Heart</title>
+    <style>
+        .message-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ea80b0;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            font-family: 'Dancing Script', cursive;
+            z-index: 10; /* Ensure it appears above the heart */
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .message-button:hover {
+            background-color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="pinkboard"></canvas>
+    <a href="loveLetter.html" class="message-button">A Message for You</a>
+    <script src="annivesary.js"></script>
+</body>
+</html>
